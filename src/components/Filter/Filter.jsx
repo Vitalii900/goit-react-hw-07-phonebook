@@ -1,6 +1,6 @@
 import '../Filter/Filter.css'
 import { useDispatch, useSelector } from 'react-redux';
-import { filter } from '../redux/store';
+import { filter } from '../redux/slice';
 
 export function Filter() {
   const inputValue = useSelector(state => state.filter);
